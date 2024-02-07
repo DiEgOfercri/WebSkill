@@ -1,3 +1,7 @@
+.accordion-button::after {
+    display: none !important;
+}
+
 .navbar-brand img {
     height: 30px;
 }
