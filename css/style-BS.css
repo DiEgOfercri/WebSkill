@@ -54,7 +54,7 @@
     --bs-danger-text-emphasis: #58151c;
     --bs-light-text-emphasis: #495057;
     --bs-dark-text-emphasis: #495057;
-    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-primary-bg-subtle: #f7f7f7;
     --bs-secondary-bg-subtle: #e2e3e5;
     --bs-success-bg-subtle: #d1e7dd;
     --bs-info-bg-subtle: #cff4fc;
@@ -150,7 +150,7 @@
     --bs-danger-text-emphasis: #ea868f;
     --bs-light-text-emphasis: #f8f9fa;
     --bs-dark-text-emphasis: #dee2e6;
-    --bs-primary-bg-subtle: #031633;
+    --bs-primary-bg-subtle: #f7f7f7;
     --bs-secondary-bg-subtle: #161719;
     --bs-success-bg-subtle: #051b11;
     --bs-info-bg-subtle: #032830;
@@ -5286,7 +5286,7 @@ fieldset:disabled .btn {
 .accordion-item {
     color: var(--bs-accordion-color);
     background-color: var(--bs-accordion-bg);
-    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color)
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
 
 .accordion-item:first-of-type {
