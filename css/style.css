@@ -9,3 +9,25 @@
 .navbar {
     background-color: #e5fae9 !important;
 }
+
+.footer {
+    background-color: #6c757e !important;
+    font-size: 12px !important;
+}
+
+.footer a {
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.footer p {
+    color: #000 !important;
+    font-weight: 400 !important;
+}
+
+.footer .btn {
+    height: fit-content !important;
+    background-color: #26a848 !important;
+    border-color: #26a848!important;
+    font-weight: 400 !important;
+}
