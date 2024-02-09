@@ -31,3 +31,19 @@
     border-color: #26a848!important;
     font-weight: 400 !important;
 }
+
+.categoria {
+    width: 200px;
+}
+
+.categoria img {
+    border-radius: 50%;
+}
+
+.categoria .btn {
+    border-radius: 0 !important;
+    background-color: #26a848;
+    border-color: #26a848;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
