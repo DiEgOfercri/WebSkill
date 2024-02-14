@@ -47,3 +47,37 @@
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+.bg-verde {
+   background-color: rgb(39, 168, 68);
+}
+
+.bg-verde-claro {
+    background-color: rgb(229, 250, 233);
+}
+
+.titulo {
+    font-size: 60px;
+}
+
+.subtitulo {
+    font-size: 45px;
+}
+
+.table-verde {
+    --bs-table-color: #000;
+    --bs-table-bg:  rgb(229, 250, 233);
+    --bs-table-border-color: rgb(226, 237, 220)
+    --bs-table-striped-bg:  rgb(229, 250, 233);
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: rgb(226, 237, 220)
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: rgb(226, 237, 220)
+    --bs-table-hover-color: #000;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color)
+}
+
+.modal-dialog-custom {
+    max-width: 40%;
+}

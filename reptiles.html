@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Web Skill</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="css/style-BS.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logos/logo.png" alt="Logo" />
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Categorías</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Anfibios</a>
+                                <a class="dropdown-item" href="#">Aves</a>
+                                <a class="dropdown-item" href="#">Mamíferos</a>
+                                <a class="dropdown-item" href="#">Peces</a>
+                                <a class="dropdown-item" href="reptiles.html">Reptiles</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal"
+                                data-bs-target="#ventanaEmergente">Regístrate</a>
+                            <div class="modal fade" id="ventanaEmergente" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="ventanaEmergente" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center text-center">
+                                            <h3 class="modal-title" id="staticBackdropLabel">Registro de usuario</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container shadow">
+                                                <form>
+                                                    <div class="form-group pt-3 mb-3">
+                                                        <label for="exampleInputEmail1">Usuario</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="exampleInputPassword1">Contraseña</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="exampleInputPassword1">Repite la contraseña</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="exampleInputPassword1">Email</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="exampleInputPassword1">Dirección</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputPassword1">Teléfono</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1">
+                                                    </div>
+                                                    <button type="submit"
+                                                        class="btn btn-success w-100 mt-3 mb-3">Entrar</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal"
+                                data-bs-target="#ventanaEmergente2">Inicia Sesión</a>
+                        </li>
+                        <div class="modal fade ms-5" id="ventanaEmergente2" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="ventanaEmergente2" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content w-75">
+                                    <div class="modal-header justify-content-center text-center">
+                                        <h3 class="modal-title" id="staticBackdropLabel">INICIA SESIÓN</h3>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container shadow">
+                                            <form>
+                                                <div class="form-group pt-3 mb-3">
+                                                    <label for="exampleInputEmail1">Usuario</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp">
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label for="exampleInputPassword1">Contraseña</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1">
+                                                </div>
+                                                <button type="submit"
+                                                    class="btn btn-success w-100 mt-3 mb-3">Entrar</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="container mt-3 text-center">
+            <p class="titulo fw-light">Catálogo de animales</p>
+            <p class="subtitulo">Reptiles. Encontrados: 4</p>
+        </div>
+
+        <hr class="container">
+
+        <div class="container">
+            <div class="row overflow-auto flex-nowrap bg-light">
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <img src="img/reptilesImg/culebra.jpg" alt="" class="w-100">
+                    <p class="bg-verde text-white text-center fw-bold p-1">CULEBRA</p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <img src="img/reptilesImg/galapago.jpg" alt="" class="w-100">
+                    <p class="bg-verde text-white text-center fw-bold p-1">GALAPAGO</p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <img src="img/reptilesImg/lagartija.jpg" alt="" class="w-100">
+                    <p class="bg-verde text-white text-center fw-bold p-1">LAGARTIJA</p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <img src="img/reptilesImg/lagarto.JPG" alt="" class="w-100">
+                    <p class="bg-verde text-white text-center fw-bold p-1">LAGARTO</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="container">
+
+        <div class="container mt-3 text-center">
+            <p class="subtitulo">Culebra bastarda</p>
+        </div>
+
+        <hr class="container">
+
+        <div class="container">
+            <div class="row bg-verde-claro">
+                <div class="col-lg-4">
+                    <table class="table table-borderless table-verde table-striped">
+                        <h2>Taxonomía</h2>
+                        <tr>
+                            <td>Reino:</td>
+                            <td>Animalia</td>
+                        </tr>
+                        <tr>
+                            <td>Filo:</td>
+                            <td>Chordata</td>
+                        </tr>
+                        <tr>
+                            <td>Clase:</td>
+                            <td>Sauropsida</td>
+                        </tr>
+                        <tr>
+                            <td>Orden:</td>
+                            <td>Squamata</td>
+                        </tr>
+                        <tr>
+                            <td>Familia:</td>
+                            <td>Columbridae</td>
+                        </tr>
+                        <tr>
+                            <td>Genero: </td>
+                            <td>Malpolon</td>
+                        </tr>
+                        <tr>
+                            <td>Especie: </td>
+                            <td>M. monspessulanus</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-lg-8">
+                    <h1>
+                        Malpolon monspessulanus
+
+                    </h1>
+                    <p>
+                        La culebra bastarda o de Montpellier (Malpolon monspessulanus) es una especie de reptil
+                        escamoso de la familia Colubridae. Es una serpiente venenosa opistoglifa (con los dientes
+                        inoculadores de veneno situados en la parte posterior de la boca) que no es peligrosa para
+                        el hombre.
+
+                    </p>
+                    <h1>
+                        Características
+                    </h1>
+                    <p>
+                        Los ejemplares macho adultos pueden llegar a superar con facilidad los 2 m de longitud
+                        total; son frecuentemente menores, aunque individuos muy excepcionales pueden alcanzar hasta
+                        2,55 m, siendo, por tanto, la mayor especie de la península ibérica y del resto de Europa.
+                        Posee dientes venenosos en la parte posterior del maxilar superior (opistoglifa).
+                        La cabeza presenta un aspecto muy característico, pues posee ojos grandes, con las escamas
+                        supraoculares muy salientes que forman una especie de ceja muy prominente que le da una
+                        expresión de mirada penetrante. La escama frontal es característicamente estrecha. Posee
+                        ocho escamas supralabiales de las que la 4.ª y la 2.ª están bordeando el ojo. Las escamas
+                        del dorso son lisas y con arcos, pero nunca carenadas, formando 17 o 19 hileras en el centro
+                        del cuerpo: de 160 a 189 escamas ventrales. La cola representa aproximadamente 1/4 de la
+                        longitud total. Presenta un dorso oliváceo o pardusco claro generalmente uniforme, mostrando
+                        en el tercio anterior una zona de manchas negruzcas (en los machos y de vez en cuando
+                        hembras) muy características (mancha de silla de montar), y las partes inferiores
+                        amarillentas con un ligero moteado oscuro. Los jóvenes presentan 5 o 7 hileras de manchas
+                        oscuras a lo largo del cuerpo, siendo más grandes las centrodorsales que las de los flancos.
+
+                    </p>
+                    <h1>
+                        Evolución
+                    </h1>
+                    <p>
+                        La evidencia genética sugiere que la especie se originó en el Magreb, migrando hacia el sur
+                        de Europa entre 83 000 y 168 000 años atrás y hacia el sureste de Europa y el oeste de Asia
+                        posteriormente. Está más estrechamente relacionado con la especie de norteafricana Malpolon
+                        moilensis y con una especie fósil del Plioceno de España, Malpolon mlynarskii, con la que
+                        forma el género Malpolon. Malpolon tiene un buen registro fósil, que se remonta al Plioceno,
+                        tanto en el suroeste de Europa y el norte de África.
+
+                    </p>
+                    <h1>
+                        Veneno
+                    </h1>
+                    <p>
+                        Debido a la situación posterior de sus colmillos, es difícil que éstos lleguen a ser
+                        efectivos al morder al hombre. Sin embargo, los ejemplares de mayor tamaño, al poseer una
+                        boca de gran amplitud, sí pueden causar envenenamientos leves, nunca mortales.
+                        Solo se conocen algunos casos de envenenamiento en los seres humanos, uno de los cuales se
+                        produjo cuando se insertó un dedo en la boca de la serpiente. En tal caso, la picadura viene
+                        acompañada por la inflamación local y el dolor, edema y/o linfangitis o síntomas
+                        neurológicos (parestesias, disfagia, ptosis, disnea) o, excepcionalmente, una leve
+                        parálisis. Estos efectos son, sin embargo, pasajeros y tienen una fácil cura.
+                        El veneno es de baja toxicidad; Un tratamiento sintomático es suficiente para tratar un
+                        envenenamiento.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
